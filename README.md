@@ -25,11 +25,11 @@ scan-after.txt
 Readme.me
 
 ## Del 1 – Sårbar image
-Jag byggde en enkel app och en sårbar Dockerfile. 
+Jag byggde en sårbar Dockerfile. 
 Trivy‑scanningen visade många sårbarheter och resultatet finns i scan-before.txt.
 Screenshot finns i screenshots/trivy-before.png.
 
-## Del 2
+## Del 2 - Fortsättning
 I denna del skapade jag en härdad Docker‑image genom att använda en slim‑baserad Python‑image, köra som en icke‑root‑användare. Efter att ha byggt imagen skannade jag den med Trivy och såg en tydlig minskning av sårbarheter jämfört med den sårbara versionen. 
 
 ## Del 3 – SBOM
